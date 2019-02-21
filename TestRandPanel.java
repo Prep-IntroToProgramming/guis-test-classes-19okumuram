@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-
 public class TestRandPanel {
     public static void main(String[] args){
         JFrame frame = new JFrame();

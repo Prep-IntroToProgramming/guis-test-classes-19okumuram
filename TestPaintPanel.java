@@ -5,9 +5,8 @@ public class TestPaintPanel {
     public static void main(String[] args){
         JFrame frame = new JFrame();
         PaintedPanel panel = new PaintedPanel();
-        PaintedPanel panel2 = new PaintedPanel();
         frame.add(panel);
-        frame.setSize(300, 300);
+        frame.setSize(500, 500);
         frame.setVisible(true);
     }
 }
