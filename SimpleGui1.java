@@ -4,7 +4,7 @@ public class SimpleGui1{
     public SimpleGui1() {
         JFrame frame = new JFrame(); //creates a new window
         JButton button = new JButton("click me"); //creating new JButton
-        JLabel label = new JLabel("Swing is pretty cool"); //creates new JLabel object
+        JLabel label = new JLabel("<html> <b> <u> <i>HELLO MY NAME IS<br> DOG</u> </i> </b> </html>"); //creates new JLabel object
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //
         frame.add(button); //adds the button to the frame (makes it appear)
         frame.add(label); //adds to the frame

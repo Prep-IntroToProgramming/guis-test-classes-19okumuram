@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class SimpleGui2{ 
     public SimpleGui2() {
@@ -7,12 +8,13 @@ public class SimpleGui2{
         //JLabel label = new JLabel("Swing is pretty cool");
         
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLayout(new FlowLayout());
         frame.add(panel);
         
         
         //frame.add(panel2);
         //frame.add(label);
-        frame.setSize(panel.i.getIconWidth()+20, panel.i.getIconHeight()+45);
+        frame.setSize(panel.getPreferredSize());
         frame.setVisible(true);
     }
 
