@@ -27,7 +27,7 @@ public class TimerThing implements ActionListener {
     public void actionPerformed(ActionEvent event) {
 
     }
-
+    
     public class TimerListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent event) {
